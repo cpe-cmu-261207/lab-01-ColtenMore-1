@@ -7,7 +7,46 @@
   <title>My Resume Website</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-  <p>test 1 2 3</p>
+<body class="bg-gray-300">
+  <!--nav bar-->
+  <div class="flex justify-between max-w-screen-md mx-auto py-10 font-semibold text-xl text-blue-500">
+    <a href="index.html">Home</a>
+    <a href="exp.html">Experience</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <!--home-->
+  <div class="font-semibold grid justify-items-center border-8 rounded-md border-blue-500 bg-white">
+    <!--personal info-->
+    <p class="flex justify-between max-w-screen-md mx-auto py-4 text-xl text-blue-500">About Me</p>
+    <div class="box-border w-50 h-50 border-4 max-w-screen-md mx-auto rounded-xl bg-blue-200 flex p-4">
+      <img class="w-40 h-40 rounded-l-lg" src="/images/pic1.png">
+      <div class="font-semibold px-4">
+        <p class="text-xl">Thadthon Prechamanasart</p>
+        <p class="text-gray-500">Hi! I'm Thadthon. I'm currently studying Computer Engineering at Chiang Mai University.</p>
+      </div>
+    </div>
+
+    <!--Interests-->
+    <p class="flex justify-between max-w-screen-md mx-auto py-4 text-xl text-blue-500">My Interests</p>
+    <div class="">
+      <!--1-->
+      <div class="box-border w-50 h-50 border-4 max-w-screen-md mx-auto rounded-xl bg-blue-200 py-4 p-4 my-4">
+        <p class="text-xl">Programming</p>
+        <p class="text-gray-500">I'm interested in programming and wanted to work as backend programmer.</p>
+      </div>
+      <!--2-->
+      <div class="box-border w-50 h-50 border-4 max-w-screen-md mx-auto rounded-xl bg-blue-200 py-4 p-4 my-4">
+        <p class="text-xl">Games</p>
+        <p class="text-gray-500">I'm a big fan of MMORPG games. I wish to be a part of a developer team</p>
+      </div>
+      <!--3-->
+      <div class="box-border w-50 h-50 border-4 max-w-screen-md mx-auto rounded-xl bg-blue-200 py-4 p-4 my-4">
+        <p class="text-xl">Gacha</p>
+        <p class="text-gray-500">I'm addicted. :(</p>
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
